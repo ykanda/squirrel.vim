@@ -1,0 +1,10 @@
+install details
+
+1. make folder
+   %VIMHOME%/after/syntax
+
+2. copy "squrrel.vim" to
+   %VIMHOME%/after/syntax
+
+3. write in .vimrc
+   au BufNewFile,BufRead *.nut setf squirrel
